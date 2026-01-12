@@ -5,7 +5,7 @@ Follow these steps to get the application up and running on your machine.
 
 First, you need to set up the database environment:
 
-    Create the Database: Open SQL Server Management Studio (SSMS) and run the script provided in the file kod sql.txt.
+    Create the Database: Open SQL Server Management Studio (SSMS) and run the script provided in the file "kod sql.txt".
 
     Install Dependencies: In Visual Studio, go to Manage NuGet Packages and install the following library:
 
