@@ -3,7 +3,7 @@
 Follow these steps to get the application up and running on your machine.
 1. 🗄️ Database Preparation
 
-First, you need to set up the database environment:
+First, Set up the database environment:
 
     Create the Database: Open SQL Server Management Studio (SSMS) and run the script provided in the file "kod sql.txt".
 
@@ -13,7 +13,7 @@ First, you need to set up the database environment:
 
 2. ⚙️ Connection Configuration
 
-You need to tell the application how to find your local SQL Server instance.
+Tell the application how to find your local SQL Server instance.
 
     Open the Program.cs file.
 
