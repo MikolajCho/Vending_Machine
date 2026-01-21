@@ -1,8 +1,13 @@
-﻿using System;
+using System;
 
 namespace Automaty_z_napojami
 {
-    public class Produkt
+    public class ObiektSystemowy
+    {
+        public DateTime DataUtworzeniaObiektu { get; set; } = DateTime.Now;
+    }
+
+    public class Produkt : ObiektSystemowy
     {
         public int Id;
         public string Nazwa = "";
@@ -13,5 +18,15 @@ namespace Automaty_z_napojami
     {
         public int Pojemnosc;
         public string Kategoria = "";
+    }
+
+    public class NapojGazowany : Napoj
+    {
+
+    }
+
+    public class NapojNiegazowany : Napoj
+    {
+
     }
 }
